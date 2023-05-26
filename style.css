@@ -59,7 +59,7 @@ footer {
 
 /* Styles specific to search_bar (search bar) */
 
-form{
+.search-form{
   background: rgb(223, 201, 7);
   border-radius: 25px;
   position: relative;
@@ -145,13 +145,20 @@ button:hover i{
 
 /* Styles specific to contact.html (contact)*/
 .container {
+  display: flex;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
 
+#contact-form{
+  display: block;
+  margin-top: 15%;
+  
+
+}
 h1 {
-  text-align: center;
+  text-align: auto;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -176,6 +183,7 @@ label {
 
 textarea {
   height: 150px;
+  border: 2px solid rgb(245, 197, 24);
 }
 
 .submit-button {
