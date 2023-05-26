@@ -1,0 +1,111 @@
+
+/* Styles specific to contact.html (contact)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(224, 224, 224);
+}
+  
+header {
+    background-color:  rgb(245, 197, 24);
+    color:black;
+    padding: 20px;
+    
+}
+header #cinemania{
+    text-align: center;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+  
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+  
+section {
+    padding: 20px;
+  
+    
+}
+.container {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: rgb(245, 197, 24);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact-form{
+    display: block;
+    margin-top: 15%;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.contact-section input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#heading{
+    text-align: center;
+}
+textarea {
+    height: 150px;
+    border: 2px solid rgb(245, 197, 24);
+}
+  
+.submit-button {
+    background-color:  lightyellow;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+  
+.submit-button:hover {
+    background-color: rgb(182, 153, 48);
+}
+  
+.submit-button:active {
+    background-color: rgb(248, 195, 22);
+}
+  
+footer {
+    background-color: #333333;
+    color: rgb(245, 197, 24);
+    padding: 10px;
+    text-align: center;
+}

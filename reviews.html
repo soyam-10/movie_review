@@ -4,24 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Movie Reviews - Cinemania</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="review.css">
   <script src="script.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
+    <h1 id="cinemania">The Cinemania: Where Film Enthusiasts Unite</h1>
     <h1>Movie Reviews</h1>
     <nav>
       <ul>
-        <br><br>
         <form class="search-form">
           <input type="text" name="" placeholder="Search movies...">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="home.html">Home</a></li>
         <li><a href="reviews.html">Movie Reviews</a></li>
         <li><a href="about.html">About Cinemania</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
@@ -29,19 +29,19 @@
   <section>
     <h2>Movie Reviews</h2>
     
-    <div id="movieReviews"></div>
-  <section id="reviews">
-      <h2>Here are the top Movie Reviews</h2>
+    <div id="movieReviews">
+      <section id="reviews-box">
+        <h2>Here are the top Movie Reviews</h2>
     
-      <div class="movie-review">
-        <img src="./images/Interstellar.jpg" height="450px" alt="Interstellar Poster">
-        <div class="review-details">
-          <h3>Interstellar</h3>
-          <p>Release Year: 2014</p>
-          <p>Review: Interstellar is a visually stunning and thought-provoking science fiction film directed by Christopher Nolan. It explores themes of space exploration, time dilation, and the survival of humanity. The movie's captivating storyline, outstanding performances, and breathtaking visuals make it a must-watch for any science fiction enthusiast.</p>
-          <button class="like-button">Like</button>
-          <br>
-          <br>
+        <div class="movie-review">
+          <img src="./images/Interstellar.jpg" height="450px" alt="Interstellar Poster">
+          <div class="review-details">
+            <h3>Interstellar</h3>
+            <p>Release Year: 2014</p>
+            <p>Review: Interstellar is a visually stunning and thought-provoking science fiction film directed by Christopher Nolan. It explores themes of space exploration, time dilation, and the survival of humanity. The movie's captivating storyline, outstanding performances, and breathtaking visuals make it a must-watch for any science fiction enthusiast.</p>
+            <button class="like-button">Like</button>
+            <br><br>
+          </div>
           <div class="rating">
             <img src="star.png" height="35px" alt="1 Star">
             <img src="star.png" height="35px" alt="2 Stars">
@@ -50,20 +50,20 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-          <textarea placeholder="Write your own review"></textarea>
+          <textarea placeholder="Write your own review"></textarea><br>
           <button class="submit-review">Submit Review</button>
         </div>
-      </div>
     
-      <div class="movie-review">
-        <img src="./images/dark_knight.jpg" height="450px" alt="The Dark Knight Poster">
-        <div class="review-details">
-          <h3>The Dark Knight</h3>
-          <p>Release Year: 2008</p>
-          <p>Review: The Dark Knight is a masterpiece of superhero cinema. Christopher Nolan's gripping storytelling, Heath Ledger's iconic portrayal of the Joker, and the film's gritty atmosphere combine to create an intense and unforgettable experience. The movie delves into themes of chaos, morality, and the nature of heroism, elevating it beyond a typical comic book adaptation.</p>
-          <button class="like-button">Like</button>
-          <br>
-          <br>
+        <div class="movie-review">
+          <img src="./images/dark_knight.jpg" height="450px" alt="The Dark Knight Poster">
+          <div class="review-details">
+            <h3>The Dark Knight</h3>
+            <p>Release Year: 2008</p>
+            <p>Review: The Dark Knight is a masterpiece of superhero cinema. Christopher Nolan's gripping storytelling, Heath Ledger's iconic portrayal of the Joker, and the film's gritty atmosphere combine to create an intense and unforgettable experience. The movie delves into themes of chaos, morality, and the nature of heroism, elevating it beyond a typical comic book adaptation.</p>
+            <button class="like-button">Like</button>
+            <br>
+            <br>
+            </div>
           <div class="rating">
             <img src="star.png" height="35px" alt="1 Star">
             <img src="star.png" height="35px" alt="2 Stars">
@@ -72,7 +72,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-          <textarea placeholder="Write your own review"></textarea>
+          <textarea placeholder="Write your own review"></textarea><br>
           <button class="submit-review">Submit Review</button>
         </div>
       </div>
@@ -94,7 +94,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-          <textarea placeholder="Write your own review"></textarea>
+          <textarea placeholder="Write your own review"></textarea><br>
           <button class="submit-review">Submit Review</button>
         </div>
       </div>
@@ -116,7 +116,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-          <textarea placeholder="Write your own review"></textarea>
+          <textarea placeholder="Write your own review"></textarea><br>
           <button class="submit-review">Submit Review</button>
         </div>
       </div>
@@ -138,7 +138,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-          <textarea placeholder="Write your own review"></textarea>
+          <textarea placeholder="Write your own review"></textarea><br>
           <button class="submit-review">Submit Review</button>
         </div>
   
@@ -159,7 +159,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-            <textarea placeholder="Write your own review"></textarea>
+            <textarea placeholder="Write your own review"></textarea><br>
             <button class="submit-review">Submit Review</button>
           </div>
         </div>
@@ -181,7 +181,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-            <textarea placeholder="Write your own review"></textarea>
+            <textarea placeholder="Write your own review"></textarea><br>
             <button class="submit-review">Submit Review</button>
           </div>
         </div>
@@ -203,7 +203,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-            <textarea placeholder="Write your own review"></textarea>
+            <textarea placeholder="Write your own review"></textarea><br>
             <button class="submit-review">Submit Review</button>
           </div>
         </div>
@@ -225,7 +225,7 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-            <textarea placeholder="Write your own review"></textarea>
+            <textarea placeholder="Write your own review"></textarea><br>
             <button class="submit-review">Submit Review</button>
           </div>
         </div>
@@ -247,10 +247,10 @@
             <img src="star.png" height="35px" alt="5 Stars">
           </div>
           <br>
-            <textarea placeholder="Write your own review"></textarea>
+            <textarea placeholder="Write your own review"></textarea><br>
             <button class="submit-review">Submit Review</button>
           </div>
-        </div>
+  </div>
   
   </section>
 
